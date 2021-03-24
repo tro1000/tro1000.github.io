@@ -1,37 +1,43 @@
 <!DOCTYPE html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-<style> 
-	.topnav a {
-		list-style-type: none;
-		margin: 0px;
-		padding: 30px;
-		text-align: center;
-		text-decoration: none;
-	}
-
+<html>
+	<head>
+		<title>Cupcake</title>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="cupcake.css"> 
+        
+	</head>
 	
-</style>
-</head>
+	<body>
+		<nav class="navigation">
+			<a href="#">Home</a> - 
+			<a href="#">About</a> - 
+			<a href="#">Contact</a>	
+		</nav>
 
-<body>
+		<div class="header">
+			<i class="fa fa-birthday-cake fa-1x"></i>
+			Village Cupcakes
+			<i class="fa fa-birthday-cake fa-1x"></i>
+		</div>
 
+	    <div id="bar"></div>
 
-<div class="topnav">
-  <a href="default.asp">Home</a>
-  <a href="news.asp">News</a>
-  <a href="contact.asp">Contact</a>
-  <a href="about.asp">About</a>
-
-</div>
-
-</body>
+		<div class="content">
+			<p>Welcome to Village Cupcakes. Here you will find all sorts of gourmet cupcakes. Enjoy! <p>
+			<h3>- Our flavors -</h3>
+			<div class="flex-container">
+			    <div>
+					<img class="cupcake" src="imgs/cupcake.png" alt="cupcake" >
+				</div>
+				<ul>
+					<li>French Vanilla</li>
+					<li>Strawberry Frosting</li>
+					<li>Chocolate Mousse</li>
+					<li>Salted Caramel</li>
+					<li>Rose Petal</li>
+				</ul>
+			</div>	
+		</div>
+		<div class="footer">&copy; 2020 Intro to Web Development</div>
+	</body>
 </html>
