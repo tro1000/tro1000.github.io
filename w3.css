@@ -31,38 +31,40 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
   body {
-    background-image: url("imgs/headerpattern.jpg");
-    margin: 20px;
-    width: 95%;
+    background-image: url("imgs/fabric.jpg");
+    margin: 0 auto;
+
 
   }
 
 
   .header {
-    background-color: white;
+    background-image: url("imgs/italian.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
-    height: 235px;
+    height: 270px;
     text-align: center;
     overflow:hidden;
-    border-bottom: 2px solid black;
+    border-bottom: 5px white;
   }
 
   .header h1 {
-    color: black;
+    color: white;
     font-family: 'Dancing Script',cursive;
-    font-size: 130px;
-    height:75%
-   ;
+    font-size: 120px;
   }
-.topnav a {
-    color:black;
+  .topnav a {
+    color:white;
     font-family: 'Rokkitt', serif;
-    font-size: 23px;
-    padding:15px 30px;
+    font-size: 25px;
+    padding:6px 25px;
     text-decoration: none;
   }
   .topnav a:hover {
-    background-color:#F5F5F5;
+    color: black;
+    background-color: #f5f5f5;
   }
 
   .dignitylogo {
@@ -127,7 +129,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:66.66666%}
 .w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
 .w3-rest{overflow:hidden}.w3-stretch{margin-left:-16px;margin-right:-16px}
-.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto;background-color:white;}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 .w3-cell-row{display:table;width:100%}.w3-cell{display:table-cell}
 .w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
@@ -284,7 +286,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     @media only screen and (max-width: 600px) {
     
     body { 
-      width: 600px; 
+      margin:0 auto;
     }
 
     .header {
