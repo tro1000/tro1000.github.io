@@ -289,25 +289,21 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
       margin:0 auto;
     }
 
-    .header {
-      height: 400px;
-      display: flex;
-      flex-direction: column;
-    }
+     .header {
+       height: 450px;
 
-    .header h1 {
-      display: flex;
-      flex-direction: column;
-      font-size: 70px;
-      height: 100px;
-    }
+     }
 
-    .topnav a {
-      display: flex;
-      flex-direction: column;
-      font-size: 20px;
-      padding: 10px 20px;
-    }
+     .header h1 {
+       font-size: 80px;
+     }
+
+     .topnav a {
+       display: flex;
+       flex-direction: column;
+       font-size: 25px;
+       padding: 10px 20px;
+     }
 
     .container {
       display: flex;
