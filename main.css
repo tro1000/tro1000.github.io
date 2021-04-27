@@ -1,7 +1,6 @@
   body {
     background-image: url("imgs/fabric.jpg");
-
-
+    margin:0 auto;
   }
 
   ul {
@@ -16,7 +15,7 @@
     height: 270px;
     text-align: center;
     overflow:hidden;
-    border-bottom: 2px solid black;
+    border-bottom: 5px white;
   }
 
   .header h1 {
