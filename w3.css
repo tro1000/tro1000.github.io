@@ -298,14 +298,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     .header h1 {
       display: flex;
       flex-direction: column;
-      font-size: 80px;
+      font-size: 70px;
       height: 100px;
     }
 
     .topnav a {
       display: flex;
       flex-direction: column;
-      font-size: 25px;
+      font-size: 20px;
       padding: 10px 20px;
     }
 
