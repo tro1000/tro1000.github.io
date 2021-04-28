@@ -45,6 +45,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     text-align: center;
     overflow:hidden;
     border-bottom: 5px white;
+    padding-top: 20px;
+
+
 
   }
 
@@ -54,8 +57,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     font-size: 120px;
 
 
-  }
 
+  }
+  .topnav {
+    padding-top: 20px;
+  }
   .topnav a {
     color:white;
     font-family: 'Rokkitt', serif;
